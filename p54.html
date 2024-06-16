@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegación con Mapas de Imagen</title>
+</head>
+<body>
+    <div id="arriba" align="center">
+        <h1>Parte Superior</h1>
+        <img width="474" height="474" src="/E:/hugogay/f.jpeg" usemap="#flecha-abajo" alt="Flecha hacia abajo">
+        <map name="flecha-abajo">
+            <area shape="poly" coords="237,0, 474,237, 355,237, 355,474, 119,474, 119,237, 0,237" href="#abajo" alt="Ir abajo">
+        </map>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <div id="abajo" align="center">
+        <h1>Parte Inferior</h1>
+        <img width="474" height="474" src="/E:/hugogay/f.jpeg" usemap="#flecha-arriba" alt="Flecha hacia arriba">
+        <map name="flecha-arriba">
+            <area shape="poly" coords="119,0, 355,0, 355,237, 474,237, 237,474, 0,237, 119,237" href="#arriba" alt="Ir arriba">
+        </map>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <p align="center">
+        <a href="#arriba">Ir Arriba</a> | <a href="#abajo">Ir Abajo</a>
+    </p>
+</body>
+</html>
